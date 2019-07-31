@@ -4,11 +4,42 @@
 }
 
 .header-container {
+  display: flex;
   background-color: orange;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 35%
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .header-container h1 {
   text-align: center;
+}
+
+.buttons {
+  border-radius: 4px;
+  background-color: gray;
+  border-color: gray;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  color: gray;
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
 }
 
 .nasa-photo {
