@@ -25,8 +25,8 @@ export default function NasaPhotos(props) {
   return (
     <div>
       {isLoading && <h1>Your Nasa Picture is Loading...</h1>}
-      <h1>Photographer: {copyright}</h1>
-      <h2>Date: {date}</h2>
+      <h1 style={{ textAlign: "center" }}>Photographer: {copyright}</h1>
+      <h2 style={{ textAlign: "center" }}>Date: {date}</h2>
       <p>{explanation}</p>
       <Photo img={pictures} />
     </div>

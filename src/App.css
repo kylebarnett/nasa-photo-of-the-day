@@ -1,11 +1,12 @@
 .App {
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
 }
 
 .header-container {
   display: flex;
-  background-color: orange;
+  background-color: crimson;
+  color: white;
 }
 
 .nav-container {
